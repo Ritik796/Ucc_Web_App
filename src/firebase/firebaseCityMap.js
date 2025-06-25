@@ -1,4 +1,4 @@
-import * as dbConnect from "../firebase";
+import * as dbConnect from "./firebaseConfig";
 import * as common from '../common/commonFunctions';
 
 const data = {
