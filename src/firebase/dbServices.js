@@ -1,8 +1,8 @@
 import { ref, get, update, set, remove } from "firebase/database";
-import { storage } from "../firebase";
+import { storage } from "./firebaseConfig";
 import { ref as ref_storage, uploadBytes } from "firebase/storage";
 import * as common from "../common/commonFunctions";
-import * as firebaseService from "./firebaseService";
+import * as firebaseService from "./firebaseCityMap";
 
 export const uploadImageToStorage = async (image, filePath) => {
   return new Promise(async (resolve) => {
